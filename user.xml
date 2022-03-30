@@ -37,7 +37,7 @@
                  Execute: PASSWORD=$(base64 < /dev/urandom | head -c8); echo "$PASSWORD"; echo -n "$PASSWORD" | sha1sum | tr -d '-' | xxd -r -p | sha1sum | tr -d '-'
                  In first line will be password and in second - corresponding double SHA1.
             -->
-            <password_sha256_hex>45c41ee35ae743cd5b262194feabbc20ec2b25d6436d24c8acb4cc94444f1778</password_sha256_hex>
+            <password_double_sha1_hex>bbd6a42b084ad047043d39f3e9e0692c24b94520</password_double_sha1_hex>
 
             <!-- List of networks with open access.
 
