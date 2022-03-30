@@ -2,7 +2,7 @@
 <yandex>
     <users>
         <default>
-            <password_sha256_hex>45c41ee35ae743cd5b262194feabbc20ec2b25d6436d24c8acb4cc94444f1778</password_sha256_hex>
+            <password replace="replace">test</password>
         </default>
     </users>
 </yandex>
