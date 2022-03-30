@@ -3,6 +3,7 @@ services:
   server:
     image: yandex/clickhouse-server
     container_name: clickhouse
+    restart: always
     ports:
       - "8123:8123"
       - "9000:9000"
