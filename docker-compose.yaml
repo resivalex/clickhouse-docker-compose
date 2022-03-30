@@ -14,4 +14,4 @@ services:
         hard: 262144
     volumes:
       - ./clickhouse-data:/var/lib/clickhouse
-      - ./user.xml:/etc/clickhouse-server/users.d/user.xml
+#      - ./user.xml:/etc/clickhouse-server/users.d/user.xml
